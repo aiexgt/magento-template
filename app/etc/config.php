@@ -359,7 +359,11 @@ return [
         'PayPal_BraintreeGiftCardAccount' => 1,
         'PayPal_BraintreeGiftWrapping' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Vendor_CliCommand' => 1,
+        'Vendor_Controller' => 1,
+        'Vendor_Model' => 1,
         'Vendor_Observer' => 1,
-        'Vendor_Plugin' => 1
+        'Vendor_Plugin' => 1,
+        'Vendor_Preference' => 1
     ]
 ];
