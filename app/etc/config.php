@@ -361,9 +361,16 @@ return [
         'PayPal_BraintreeGraphQl' => 1,
         'Vendor_CliCommand' => 1,
         'Vendor_Controller' => 1,
+        'Vendor_CronJobs' => 1,
+        'Vendor_CustomApi' => 1,
+        'Vendor_DataPatch' => 1,
+        'Vendor_GraphQL' => 1,
         'Vendor_Model' => 1,
         'Vendor_Observer' => 1,
         'Vendor_Plugin' => 1,
-        'Vendor_Preference' => 1
+        'Vendor_Preference' => 1,
+        'Vendor_SchemaPatch' => 1,
+        'Vendor_Service' => 1,
+        'Vendor_ServiceIntegration' => 1
     ]
 ];
