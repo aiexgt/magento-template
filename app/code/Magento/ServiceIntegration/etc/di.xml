@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\ServiceIntegration\Api\RestClientInterface" type="Magento\ServiceIntegration\Model\Client\RestClient" />
+    <preference for="Magento\ServiceIntegration\Api\SoapClientInterface" type="Magento\ServiceIntegration\Model\Client\SoapClient" />
+</config>

@@ -1,0 +1,8 @@
+type QueryResponse {
+    message: String!
+    status: Boolean!
+}
+
+type Query {
+    customQuery(param: String!): QueryResponse @resolver(class: "GraphQL\\Query\\Model\\Resolver\\CustomQuery")
+}

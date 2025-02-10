@@ -1,0 +1,8 @@
+type MutationResponse {
+    message: String!
+    status: Boolean!
+}
+
+type Mutation {
+    customMutation(input: String!): MutationResponse @resolver(class: "GraphQL\\Mutation\\Model\\Resolver\\CustomMutation")
+}
