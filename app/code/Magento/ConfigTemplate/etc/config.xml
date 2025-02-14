@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <configtemplate>
+            <general>
+                <text_field>Default Text</text_field>
+                <textarea_field>Default Textarea</textarea_field>
+                <select_field>1</select_field>
+                <multiselect_field>1,0</multiselect_field>
+                <date_field>2023-01-01</date_field>
+                <time_field>12:00:00</time_field>
+                <datetime_field>2023-01-01 12:00:00</datetime_field>
+                <password_field>defaultpassword</password_field>
+                <file_field></file_field>
+                <image_field></image_field>
+                <checkbox_field>1</checkbox_field>
+                <radio_field>1</radio_field>
+                <custom_select_field>option2</custom_select_field>
+            </general>
+        </configtemplate>
+    </default>
+</config>

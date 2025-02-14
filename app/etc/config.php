@@ -62,6 +62,7 @@ return [
         'Magento_CmsUrlRewriteGraphQl' => 1,
         'Magento_CatalogGraphQl' => 1,
         'Magento_TwoFactorAuth' => 1,
+        'Magento_ConfigTemplate' => 1,
         'Magento_Payment' => 1,
         'Magento_Sales' => 1,
         'Magento_QuoteGraphQl' => 1,
