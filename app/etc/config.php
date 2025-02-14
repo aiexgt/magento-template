@@ -369,6 +369,7 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'FrontEnd_Block' => 1,
+        'FrontEnd_Layout' => 1,
         'GraphQL_Mutation' => 1,
         'GraphQL_Query' => 1,
         'PayPal_Braintree' => 1,
