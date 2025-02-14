@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue.xsd">
+    <broker topic="rabbitmq.bulksync.data" exchange="magento">
+        <queue name="rabbitmq.bulksync.data.queue" consumer="rabbitmq.bulksync.data.consumer" handler="RabbitMQ\BulkSync\Model\BulkSyncConsumer::process" />
+    </broker>
+</config>
