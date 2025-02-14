@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/consumer.xsd">
+    <consumer name="rabbitmq.email.consumer" queue="rabbitmq.email.queue" connection="amqp" handler="RabbitMQ\Email\Model\EmailSender::process" />
+</config>

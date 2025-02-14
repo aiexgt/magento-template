@@ -1,0 +1,15 @@
+{
+    "name": "rabbitmq/email",
+    "description": "Módulo de ejemplo para demostrar el envío de correos electrónicos con RabbitMQ en Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RabbitMQ\\Email\\": ""
+        }
+    }
+}
