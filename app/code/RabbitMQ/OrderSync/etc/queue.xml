@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue.xsd">
+    <broker topic="rabbitmq.ordersync.order" exchange="magento">
+        <queue name="rabbitmq.ordersync.order.queue" consumer="rabbitmq.ordersync.order.consumer" handler="RabbitMQ\OrderSync\Model\OrderSyncConsumer::process" />
+    </broker>
+</config>

@@ -74,6 +74,7 @@ return [
         'Magento_CronJobs' => 1,
         'Magento_Csp' => 1,
         'Magento_Widget' => 1,
+        'Magento_CustomAdmin' => 1,
         'Magento_CustomApi' => 1,
         'Magento_Robots' => 1,
         'Magento_Analytics' => 1,
@@ -375,6 +376,7 @@ return [
         'PayPal_BraintreeGraphQl' => 1,
         'RabbitMQ_BulkSync' => 1,
         'RabbitMQ_Email' => 1,
+        'RabbitMQ_OrderSync' => 1,
         'RabbitMQ_Sync' => 1
     ]
 ];
