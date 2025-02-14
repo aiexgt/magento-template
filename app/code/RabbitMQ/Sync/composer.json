@@ -1,0 +1,17 @@
+{
+    "name": "rabbitmq/sync",
+    "description": "Módulo para sincronizar datos con otro sistema usando RabbitMQ",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.4.0|~8.1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RabbitMQ\\Sync\\": ""
+        }
+    }
+}
