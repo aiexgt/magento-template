@@ -1,18 +1,20 @@
 <div class="custom-home-block">
     <div class="block-header">
-        <h2>Welcome to Our Store!</h2>
+        <h2><?= __('Welcome to Our Store!') ?></h2>
     </div>
     <div class="block-content">
-        <p><?php echo $block->getWelcomeMessage(); ?></p>
+        <p><?= __($block->getWelcomeMessage()) ?></p>
         <ul class="features-list">
-            <li>✔ High-quality products</li>
-            <li>🚚 Fast & reliable shipping</li>
-            <li>💳 Secure payment options</li>
-            <li>⭐ Excellent customer service</li>
+            <li>✔ <?= __('High-quality products') ?></li>
+            <li>🚚 <?= __('Fast & reliable shipping') ?></li>
+            <li>💳 <?= __('Secure payment options') ?></li>
+            <li>⭐ <?= __('Excellent customer service') ?></li>
         </ul>
     </div>
     <div class="block-footer">
-        <a href="<?= $block->getUrl('customer/account/create') ?>" class="register-button">Sign Up Now</a>
+        <a href="<?= $block->getUrl('customer/account/create') ?>" class="register-button">
+            <?= __('Sign Up Now') ?>
+        </a>
     </div>
 </div>
 
