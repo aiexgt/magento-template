@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="configtemplate" translate="label" sortOrder="100">
+            <label>Config Template</label>
+        </tab>
+        <section id="configtemplate" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Config Template Settings</label>
+            <tab>configtemplate</tab>
+            <resource>BackOffice_ConfigTemplate::configtemplate</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="text_field" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Text Field</label>
+                </field>
+                <field id="textarea_field" translate="label" type="textarea" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Textarea Field</label>
+                </field>
+                <field id="select_field" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Select Field</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="multiselect_field" translate="label" type="multiselect" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Multiselect Field</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="date_field" translate="label" type="date" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Date Field</label>
+                    <frontend_model>BackOffice\ConfigTemplate\Block\Adminhtml\System\Config\Date</frontend_model>
+                    <validate>date</validate>
+                </field>
+                <field id="time_field" translate="label" type="time" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Time Field</label>
+                </field>
+                <field id="datetime_field" translate="label" type="text" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Datetime Field</label>
+                    <frontend_model>BackOffice\ConfigTemplate\Block\Adminhtml\System\Config\Datetime</frontend_model>
+                    <validate>datetime</validate>
+                </field>
+                <field id="password_field" translate="label" type="obscure" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Password Field</label>
+                    <backend_model>Magento\Config\Model\Config\Backend\Encrypted</backend_model>
+                </field>
+                <field id="file_field" translate="label" type="file" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>File Field</label>
+                </field>
+                <field id="image_field" translate="label" type="image" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Image Field</label>
+                </field>
+                <field id="checkbox_field" translate="label" type="checkbox" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Checkbox Field</label>
+                </field>
+                <field id="radio_field" translate="label" type="radio" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Radio Field</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="custom_select_field" translate="label" type="select" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Select Field</label>
+                    <source_model>BackOffice\ConfigTemplate\Model\Config\Source\CustomOptions</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

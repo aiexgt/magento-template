@@ -1,0 +1,15 @@
+{
+    "name": "backend/cron-jobs",
+    "description": "Módulo de ejemplo para demostrar la creación de un cron job en Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BackEnd\\CronJobs\\": ""
+        }
+    }
+}

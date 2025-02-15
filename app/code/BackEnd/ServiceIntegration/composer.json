@@ -1,0 +1,15 @@
+{
+    "name": "backend/service-integration",
+    "description": "Módulo para manejar peticiones a servicios externos (REST y SOAP)",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BackEnd\\ServiceIntegration\\": ""
+        }
+    }
+}

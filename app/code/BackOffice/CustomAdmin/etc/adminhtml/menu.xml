@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BackOffice_CustomAdmin::customadmin" title="Custom Admin" module="BackOffice_CustomAdmin" sortOrder="100" resource="BackOffice_CustomAdmin::customadmin"/>
+        <add id="BackOffice_CustomAdmin::customadmin_index" title="Custom Admin Page" module="BackOffice_CustomAdmin" sortOrder="10" action="customadmin/index/index" parent="BackOffice_CustomAdmin::customadmin" resource="BackOffice_CustomAdmin::customadmin"/>
+    </menu>
+</config>
