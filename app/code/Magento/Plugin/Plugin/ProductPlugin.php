@@ -1,5 +1,5 @@
 <?php
-namespace Magento\Module\Plugin;
+namespace Magento\Plugin\Plugin;
 
 class ProductPlugin
 {
