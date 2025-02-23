@@ -358,6 +358,7 @@ return [
         'BackEnd_Controller' => 1,
         'BackEnd_CronJobs' => 1,
         'BackEnd_CustomApi' => 1,
+        'BackEnd_CustomLogger' => 1,
         'BackEnd_DataPatch' => 1,
         'BackEnd_Model' => 1,
         'BackEnd_Observer' => 1,
