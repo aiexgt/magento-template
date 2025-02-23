@@ -367,6 +367,7 @@ return [
         'BackEnd_SchemaPatch' => 1,
         'BackEnd_Service' => 1,
         'BackEnd_ServiceIntegration' => 1,
+        'BackEnd_Webhook' => 1,
         'BackOffice_ConfigTemplate' => 1,
         'BackOffice_CustomAdmin' => 1,
         'FrontEnd_Block' => 1,
